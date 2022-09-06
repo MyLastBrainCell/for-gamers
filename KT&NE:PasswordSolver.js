@@ -1,8 +1,3 @@
-  const SumArray = array =>
-  array.reduce(function (a, b) {
-    return a + b;
-  }, 0);
-  
   const gameWords = ['about', 'after', 'again', 'below', 'could', 'every',
                  'first', 'found', 'great', 'house', 'large', 'learn',
                  'never', 'other', 'place', 'plant', 'point', 'right',
