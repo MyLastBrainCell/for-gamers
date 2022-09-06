@@ -1,5 +1,5 @@
   function clearBox() {
-    document.getElementById('MathOutput').innerHTML = "[Code word will come out here]";
+    document.getElementById('MathOutput').innerHTML = "[Code word will come out here?]";
     };
 
   function getInputValue() {
