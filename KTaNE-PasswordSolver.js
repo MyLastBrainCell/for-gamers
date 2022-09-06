@@ -38,13 +38,17 @@ function PasswordSolver(dataFull) {
                     builtStr = dataA[a] + dataB[b] + dataC[c] + dataD[d] + dataE[e];
                     
                     if (gameWords.includes(builtStr)) {
-                        console.log(builtStr)
+                        console.log(builtStr);
+                        return builtStr;
                     }
                 }
             }
         }
     }
   }
+  
+return '-';
+   
 }
 
 //PasswordSolver('ABBBBBBCCCCCOAAAAAUAAAAATAAAAA')
