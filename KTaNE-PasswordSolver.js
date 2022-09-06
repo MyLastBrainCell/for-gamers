@@ -33,7 +33,7 @@ function PasswordSolver(dataFull) {
       for (let b = 0; b < 6; b++) {  
         for (let c = 0; c < 6; c++) {
             for (let d = 0; d < 6; d++) {
-                for (let e = 0; d < 6; d++) {
+                for (let e = 0; e < 6; e++) {
                     
                     builtStr = dataA[a] + dataB[b] + dataC[c] + dataD[d] + dataE[e];
                     
