@@ -1,4 +1,16 @@
-  const gameWords = ['about', 'after', 'again', 'below', 'could', 'every',
+  function clearBox() {
+    document.getElementById('MathOutput').innerHTML = "[Code word will come out here]";
+    };
+
+  function getInputValue() {
+    // Selecting the input element and get its value
+    let inputVal = document.getElementById('myInput').value;
+    let codeOut = PasswordSolver(inputVal);
+    document.getElementById('MathOutput').innerHTML = codeOut;
+    MathJax.typeset()
+  }
+
+const gameWords = ['about', 'after', 'again', 'below', 'could', 'every',
                  'first', 'found', 'great', 'house', 'large', 'learn',
                  'never', 'other', 'place', 'plant', 'point', 'right',
                  'small', 'sound', 'spell', 'still', 'study', 'their',
